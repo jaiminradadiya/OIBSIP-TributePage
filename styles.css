@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+    background-color: #172154;
+    color: #ebe8e3;
+    line-height: 1.6;
+}
+
+.ms-dhoni-profile {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #172154, #ffd000);
+    padding: 40px;
+    color: #fff;
+}
+
+.profile-img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.stats div {
+    background-color: #ffd000;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #172154;
+}
+
+.teams ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.teams li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.teams img {
+    width: 30px;
+    height: auto;
+}
+
+.why-i-admire {
+    background-color: #ffd000;
+    color: #172154;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.why-i-admire h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #172154;
+}
+.main_paragraph{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #172154;
+}
+
+.why-i-admire ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.why-i-admire ul li {
+    margin-bottom: 10px;
+}
+
+.why-i-admire ul li strong {
+    color: #172154;
+}
+
+.photos {
+    margin: 20px 0;
+}
+
+.photos h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffd000;
+    color: #172154;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
